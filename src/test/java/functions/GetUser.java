@@ -21,6 +21,7 @@ public class GetUser {
                 .statusCode(200)
                 .body("firstName", notNullValue());
 
+
     }
     @Test
     public void postUser() throws FileNotFoundException {
